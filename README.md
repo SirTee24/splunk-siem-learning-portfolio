@@ -279,18 +279,23 @@ index=main
 
 spl
 index=main host=kali
+<img width="1024" height="443" alt="image" src="https://github.com/user-attachments/assets/e50a617f-4df3-4ee5-8b65-f54c02e98614" />
 
 
 spl
 index=main source="/var/log/dpkg.log"
 
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/125eddd4-7cd6-41b5-baf9-03a5b2077de3" />
+
 
 spl
 index=main | stats count
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/c9e72eed-d1e1-48da-96bc-7950deb5bb10" />
 
 
 spl
 index=main | stats count by source
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/b99d8a3b-4522-4402-9627-0701a30eb6c6" />
 
 
 spl
@@ -303,6 +308,9 @@ index=main | table host source sourcetype
 
 spl
 index=main | sort -host
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/51abd618-2df3-4369-9879-9a071e2c9591" />
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/f8b13612-8673-4845-9099-2fbf4e82a5ca" />
+
 
 
 ## Week 2 Skills Acquired
